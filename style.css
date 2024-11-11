@@ -1,0 +1,97 @@
+
+
+body {
+    background-color: black;
+}
+
+main .conteiner {
+    background-color: #5335fd;
+    width: 505px;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+main .resultado {
+    width: 250px;
+    height: auto;
+    
+    text-align: center;
+    color: white;
+}
+
+main .sumario {
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: left;
+}
+
+main .sumario h1 {
+    text-indent: 35px;
+}
+
+main h1 {
+    font-size: 1.4em;
+}
+
+main .pontuacao {
+    height: 150px;
+    width:  150px;
+    background-image: linear-gradient(to bottom, #4925CE, #5335fd);
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+main .pontuacao h1 {
+   padding-top: 40px;
+   font-size: 2.5em;
+}
+
+main .pontuacao p {
+    margin: -20px;
+}
+
+main .sumario table {
+    width: 100%;
+    text-indent: 10px;
+}
+
+main .sumario table th {
+    padding-bottom: 20px;
+}
+
+main .sumario table #s1 {
+    color: red;
+}
+main .sumario table #s2 {
+    color: rgb(206, 206, 2);
+}
+main .sumario table #s3 {
+    color: green;
+}
+main .sumario table #s4 {
+    color: #5335fd;
+}
+
+main .sumario input {
+    background-color: #303B5A;
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin-left: 25px;
+    border-radius: 100px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+main .sumario input:hover {
+    background-color: #222a41;
+}
